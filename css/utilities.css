@@ -1,0 +1,95 @@
+/* Utilities */
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+
+}
+/* Buttons */
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 0.6rem .8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  margin-right: .5rem;
+}
+.btn-light {
+  background: var(--primary);
+  color: var(--pure);
+  border: 1px solid var(--primary);
+}
+.btn-light:hover {
+  background: var(--heaven);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.btn-dark {
+  background: var(--secondary);
+  color: var(--heaven);
+  border: 1px solid var(--secondary);
+}
+.btn-dark:hover {
+  background: var(--heaven);
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+.btn-submit {
+  margin-top: 0.7rem;
+  margin-bottom: 1.2rem ;
+  padding: 0.7rem .8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+/* section */
+.section-heading {
+  padding-top: 4%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.image-heading {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  background-image: url(../icons/hr.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 2rem;
+}
+
+/* Padding  and Margin*/
+.p-5 {
+  padding: 2.5rem;
+}
+.lead {
+font-size: 1rem;
+}
+.mt-1 {
+margin-top: 1rem;
+}
+.bg-dark {
+background: var(--secondary);
+color: var(--heaven);
+}
+.mt-2{
+  margin-top: 2rem;
+}
+
+.title-bright h1 {
+  color: var(--heaven);
+  font-size: 30px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--heaven);
+}
+
